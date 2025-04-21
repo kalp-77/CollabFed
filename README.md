@@ -1,6 +1,6 @@
 ## Overview
 
-This project implements the public blockchain components of **CollabFed**, a decentralized architecture for interfacing private blockchain-based consortia with open consumer networks, as described in the IEEE INFOCOM 2021 paper *Leveraging Public-Private Blockchain Interoperability for Closed Consortium Interfacing* by Ghosh et al. The implementation focuses on the Ethereum-based smart contracts (User Request Contract and Resource Provisioning Contract) using the **Truffle Suite**, with a roadmap for integrating private blockchain (Hyperledger Fabric or Burrow) and BLS multi-signature mechanisms. The project simulates consumer requests and consortium interactions, measuring metrics like gas consumption and latency, aligning with the paper’s evaluation.
+This project implements the public blockchain components of **CollabFed**, a decentralized architecture for interfacing private blockchain-based consortia with open consumer networks, as described in the IEEE INFOCOM 2021 paper *Leveraging Public-Private Blockchain Interoperability for Closed Consortium Interfacing*. The implementation focuses on the Ethereum-based smart contracts (User Request Contract and Resource Provisioning Contract) using the **Truffle Suite**, with a roadmap for integrating private blockchain (Hyperledger Fabric or Burrow) and BLS multi-signature mechanisms. The project simulates consumer requests and consortium interactions, measuring metrics like gas consumption and latency, aligning with the paper’s evaluation.
 
 ## Project Structure
 
