@@ -38,7 +38,7 @@ The project is organized as follows:
 1. **Clone the repository**:
 
    ```bash
-   git clone <repository_url>  # Replace with your repo URL
+   git clone <repository_url>  # Replace with this repo URL
    cd collabfed_truffle
    ```
 
