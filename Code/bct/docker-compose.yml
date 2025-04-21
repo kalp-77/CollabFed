@@ -1,0 +1,19 @@
+version: '3'
+services:
+  collabfed_csp:
+    image: collabfed_image # Build from custom Dockerfile
+    container_name: collabfed_csp
+    volumes:
+      - ./config:/config
+    ports:
+      - "8545:8545" # Ethereum
+      - "7050:7050" # Fabric
+    environment:
+      - FABRIC_CFG_PATH=/config/fabric
+      - ETH_PROVIDER=http://localhost:8545
+    networks:
+      - collabfed_net
+
+networks:
+  collabfed_net:
+    driver: overlay
